@@ -10,8 +10,10 @@
 </form>
 
 <?php
-if(!empty($_GET) && $_GET["altura"] != "" &&  $_GET["peso"] != ""){
+if(!empty($_GET["altura"]) && !empty($_GET["peso"])){
 
+    
+    
     $altura = $_GET["altura"];
     $peso = $_GET["peso"];
     $imc = $peso / pow($altura, 2);

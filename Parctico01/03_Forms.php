@@ -5,7 +5,7 @@
         echo "<h1> Completar los campos </h1>";
 
     }
-    else if($_POST["name"]  == "" || $_POST["apellido"] == "" || $_POST["edad"] == ""){
+    else if(empty($_POST["name"]) || $_POST["apellido"] == "" || $_POST["edad"] == ""){
         
         echo "<h1> Completar todos los campos porfavor </h1>";
         
