@@ -1,0 +1,30 @@
+
+table, th, td {
+    
+    border: 0.5px solid;
+
+  }
+
+th, td {
+    
+    padding: 3px;
+
+}
+
+table{
+
+    border-collapse: collapse;
+    margin: 20px;
+
+}
+th{
+    background-color: yellow;
+}
+
+.main{
+
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
+    
+}
