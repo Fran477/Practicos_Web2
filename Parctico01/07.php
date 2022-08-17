@@ -13,7 +13,7 @@ Genere una tabla HTML para mostrar el resultado. -->
 
 
 <?php
-if(!empty($_GET["dinero"])){
+if(!empty($_GET["dinero"]) AND is_numeric($_GET["dinero"])){
     $dinero = $_GET["dinero"];
 }
 else{
